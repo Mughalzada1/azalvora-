@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AZalvora – Premium Accessories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to AZalvora</h1>
+  <a href="https://wa.me/923017206508" target="_blank">Order on WhatsApp</a>
+
+  <!-- Glasses Section -->
+  <div class="products-section">
+    <h2>Our Signature Glasses</h2>
+
+    <div class="product">
+      <img src="glasses1.jpg" alt="Classic Black Shades">
+      <h3>Classic Black Shades</h3>
+      <p>Price: Rs. 2,500</p>
+      <a href="https://wa.me/923017206508?text=I%20want%20to%20order%20Classic%20Black%20Shades" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product">
+      <img src="glasses2.jpg" alt="Golden Aviator">
+      <h3>Golden Aviator</h3>
+      <p>Price: Rs. 3,200</p>
+      <a href="https://wa.me/923017206508?text=I%20want%20to%20order%20Golden%20Aviator" target="_blank">Order Now</a>
+    </div>
+  </div>
+
+  <!-- Rating Section -->
+  <div class="rating-section">
+    <h2>Rate Our Store</h2>
+    <div class="stars">
+      <span onclick="rate(1)">⭐</span>
+      <span onclick="rate(2)">⭐</span>
+      <span onclick="rate(3)">⭐</span>
+      <span onclick="rate(4)">⭐</span>
+      <span onclick="rate(5)">⭐</span>
+    </div>
+    <p id="rating-result"></p>
+  </div>
+
+  <!-- Comments -->
+  <div class="comment-section">
+    <h2>Customer Comments</h2>
+    <textarea id="commentInput" placeholder="Write your comment"></textarea>
+    <button onclick="postComment()">Post Comment</button>
+    <div id="comments"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
